@@ -24,7 +24,7 @@ public class Exercicio4 {
 			System.out.println("\n1 - Backend\n2 - Frontend\n3 - Monile\n4 - Fullstack\nObservando o menu a cima, informe a classificação da "+nRespostas+"° pessoa desenvolvedora a ser processada.");
 			menu2 = leia.nextInt();
 			System.out.println("\nDeseja continuar a leitura de dados de ume nove colaboradore? (S/N)\n");
-			continua = leia.nextLine();
+			continua = leia.next();
 			
 			//Processamento.
 			if(menu2 == 1) {
